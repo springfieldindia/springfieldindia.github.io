@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('/home/adi/Downloads/bg3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -105,13 +105,30 @@ hr {
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
-}
-
-footer p {
     margin: 0;
-    padding: 50px 0;
+    padding: 20px 0;
+    text-align: center;
 }
 
+ul.social-buttons li a {
+  display: block;
+  background-color: #2083B4;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+.bg-primary {
+  color: #2083B4;
+  background-color: #E9F3F8;
+}
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
@@ -119,7 +136,9 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        /*font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        */
+        font-family: 'Lobster', cursive;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
